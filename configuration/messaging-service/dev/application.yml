@@ -1,2 +1,6 @@
 server:
   port: 8005
+
+eureka:
+  client:
+    service-url.default-timezone: "http://localhost:10000/eureka/"
